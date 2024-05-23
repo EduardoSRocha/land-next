@@ -8,6 +8,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 [![npm](https://img.shields.io/badge/-npm-CB3837?style=flat-square&logo=npm&logoColor=white)](https://www.npmjs.com/)
 [![HTML](https://img.shields.io/badge/-HTML-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![Sass](https://img.shields.io/badge/-Sass-CC6699?style=flat-square&logo=sass&logoColor=white)](https://sass-lang.com/)
+[![Tailwind CSS](https://img.shields.io/badge/-Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white)](https://nextjs.org/)
 
 [![BEM](https://img.shields.io/badge/-BEM-9575CD?style=flat-square)](http://getbem.com/)
 [![7-1 Pattern](https://img.shields.io/badge/-7--1%20Pattern-008080?style=flat-square)](https://sass-guidelin.es/#the-7-1-pattern) [![Responsive Design](https://img.shields.io/badge/-Responsive%20Design-4DB6AC?style=flat-square)](https://www.w3schools.com/html/html_responsive.asp) [![Component-driven Design](https://img.shields.io/badge/-Component--driven%20Design-FFB74D?style=flat-square)](https://www.invisionapp.com/inside-design/what-is-component-driven-design/)
