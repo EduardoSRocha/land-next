@@ -1,0 +1,22 @@
+.img {
+    border-style: none;
+    box-sizing: border-box;
+    object-fit: cover;
+    aspect-ratio: 1;
+
+    &--circle {
+        border-radius: 50%;
+
+        &--raised{
+            box-shadow: 0 10px 25px 0 rgba(0,0,0,.3);
+        }
+    }
+
+    &--square {
+        border-radius: 2%;
+
+        &--raised{
+            box-shadow: 0 10px 25px 0 rgba(0,0,0,.3);
+        }
+    }
+}

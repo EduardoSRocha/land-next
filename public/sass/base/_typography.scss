@@ -1,0 +1,202 @@
+body {
+    font-family: "Ubuntu Sans", sans-serif;
+    font-weight: 400;
+}
+
+.h1 {
+    text-transform: uppercase;
+    color: $color-gray;
+    font-size: 4rem;
+    font-weight: 600;
+
+    &--main {
+        color: $color-white;
+        display: block;
+        font-size: 6rem;
+        font-weight: 400;
+        letter-spacing: 3.5rem;
+        animation-name: movebuttonToTop;
+        animation-duration: 2s;
+        animation-timing-function: ease-out;
+    }
+
+    &--sub {
+        color: $color-white;
+        display: block;
+        font-size: 1.5rem;
+        font-weight: 500;
+        letter-spacing: 1.6rem;
+        animation-name: movebuttonToTop;
+        animation-duration: 2s;
+        animation-timing-function: ease-out;
+        margin-bottom: 4rem;
+    }
+}
+
+.h2 {
+    font-size: 3.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: inline-block;
+    color: $color-gray
+}
+
+.h3 {
+    font-size: 3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: inline-block;
+    color: $color-gray
+}
+
+
+.h4 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    display: inline-block;
+    color: $color-gray
+}
+
+.h5 {
+    font-size: 2rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    display: inline-block;
+    color: $color-gray
+}
+
+.h6 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    display: inline-block;
+    color: $color-gray
+}
+
+.paragraph {
+    font-size: 1.6rem;
+    font-weight: 200;
+    display: inline-block;
+    color: $color-gray;
+
+    &:not(:last-child) {
+        margin-bottom: 3rem;
+    }
+
+    &--danger {
+        color: $color-danger;
+    }
+
+    &--warning {
+        color: $color-warning;
+    }
+
+    &--success {
+        color: $color-success;
+    }
+
+    &--primary {
+        color: $color-primary;
+    }
+
+    &--secondary {
+        color: $color-secondary;
+    }
+}
+
+.text-background-clip {
+    text-align: center;
+    font-weight: 800;
+    display: inline-block;
+    background-image: linear-gradient(
+        to right bottom,  
+        rgba($color-primary-light, 0.8),
+        rgba($color-secondary-dark, 0.8)), 
+        url(../img/hero-1.jpg);
+    
+    background-position: center;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+
+.quote {
+    font-size: 1.6rem;
+    font-weight: 200;
+    display: inline-block;
+    color: $color-gray;
+    border: 0.1rem solid $color-gray;
+    padding: 1rem;
+    &:not(:last-child) {
+        margin-bottom: 3rem;
+    }
+
+    &--danger {
+        color: $color-danger;
+    }
+
+    &--warning {
+        color: $color-warning;
+    }
+
+    &--success {
+        color: $color-success;
+    }
+
+    &--primary {
+        color: $color-primary;
+    }
+
+    &--secondary {
+        color: $color-secondary;
+    }
+
+    &__author {
+        display: block;
+        margin-top: 2rem;
+        font-size: 1.6rem;
+        font-weight: 400;
+
+        &::before {
+            display: "inline-block";
+            content: "- "
+        }
+    }
+}
+
+
+.note {
+    font-size: 1.6rem;
+    font-weight: 200;
+    display: inline-block;
+    color: $color-warning-dark;
+    border: 0.1rem solid $color-warning-dark;
+    padding: 1rem;
+
+    &:not(:last-child) {
+        margin-bottom: 3rem;
+    }
+
+    &--danger {
+        color: $color-danger;
+    }
+
+    &--warning {
+        color: $color-warning;
+    }
+
+    &--success {
+        color: $color-success;
+    }
+
+    &--primary {
+        color: $color-primary;
+    }
+
+    &--secondary {
+        color: $color-secondary;
+    }
+    
+}

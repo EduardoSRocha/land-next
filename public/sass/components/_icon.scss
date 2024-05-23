@@ -1,0 +1,55 @@
+.icon {
+    fill: $color-gray;
+    width: 3rem; 
+    height: 3rem; 
+
+    &--small {
+        width: 2rem;
+        height: 2rem;
+        display: inline-flex;
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+
+        > .icon-button__icon {
+            width: 1.34rem; 
+            height: 1.34rem;
+        }
+    }
+
+    &--medium {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    &--large {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    &--white {
+        fill: $color-white;
+    }
+
+    &--primary {
+        fill: $color-primary;
+    }
+
+    &--secondary {
+        fill: $color-secondary;
+    }
+
+    &--danger {
+        fill: $color-danger; 
+    }
+
+    &--warning {
+        fill:  $color-warning; 
+    }
+
+    &--success {
+        fill: $color-success; 
+    }
+
+}

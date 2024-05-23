@@ -1,0 +1,110 @@
+.icon-button {
+    background-color: $color-gray;
+    display: inline-flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+
+    &:link,
+    &:visited {
+        border-radius: 50%;
+        box-shadow: 0 0.2rem 0.5rem rgba($color-black-blue, 0.1);
+    }
+
+    &:hover {
+        transform: translateY(-0.15rem);
+        box-shadow: 0 1rem 2rem rgba($color-black-blue, .1);
+        cursor: pointer;
+    }
+
+    &:active {
+        transform: translateY(-0.15rem);
+        box-shadow: 0 0.5rem 1rem rgba($color-black-blue, .1);
+    }
+
+    &__icon {
+        width: 2rem; 
+        height: 2rem; 
+        fill: $color-white
+    }
+
+    &--small {
+        width: 2rem;
+        height: 2rem;
+        background-color: $color-gray;
+        display: inline-flex;
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+
+        > .icon-button__icon {
+            width: 1.34rem; 
+            height: 1.34rem;
+        }
+    }
+
+    &--medium {
+        width: 3rem;
+        height: 3rem;
+        background-color: $color-gray;
+        display: inline-flex;
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+
+        > .icon-button__icon {
+            width: 2rem; 
+            height: 2rem;
+        }
+    }
+
+    &--large {
+        width: 4rem;
+        height: 4rem;
+        background-color: $color-gray;
+        display: inline-flex;
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+
+        > .icon-button__icon {
+            width: 2.6rem; 
+            height: 2.6rem;
+        }
+    }
+
+    &--white {
+        background-color: $color-white;
+
+        > .icon-button__icon {
+            fill: $color-gray;
+        }
+    }
+
+    &--primary {
+        background-color: $color-primary;
+    }
+
+    &--secondary {
+        background-color: $color-secondary;
+    }
+
+    &--danger {
+        background-color: $color-danger; 
+    }
+
+    &--warning {
+        background-color:  $color-warning; 
+    }
+
+    &--success {
+        background-color: $color-success; 
+    }
+}
+

@@ -1,0 +1,38 @@
+.card {
+    padding: 3rem;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    border-radius: 1.5rem;
+    background-color: $color-gray;
+
+    &--img-background {
+        background-image: linear-gradient(
+            to right bottom,  
+            rgba($color-primary-light, 0.8),
+            rgba($color-secondary-dark, 0.8)), 
+            url(../img/land-1.jpg);
+    }
+
+    &--long {
+        padding-top: 25rem;
+        padding-bottom: 25rem;
+    }
+}
+
+.card--img-background .icon {
+    fill: $color-white;
+    margin: 1rem;
+}
+
+.card--img-background .h3 {
+    font-size: 2rem;
+    color: $color-white;
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+
+.card--img-background .paragraph {
+    font-size: 1.8rem;
+    color: $color-white;
+}
