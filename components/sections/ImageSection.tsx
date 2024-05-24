@@ -6,7 +6,7 @@ import Typography from "../Typography";
 const ImageSection: React.FC = () => {
     return (
         <Section className="section-basic-elements__images">
-            <div className="row u-space-between-child-elements-2">
+            <div className="row u-space-between-child-elements-3">
                 <div className="col-12">
                     <Typography tag="h3" className="h3 u-margin-bottom-2">Imagens</Typography>
                 </div>

@@ -6,7 +6,7 @@ import Section from '@/components/Section';
 import ButtonSection from '@/components/sections/ButtonSection';
 import TypographySection from '@/components/sections/TypographySection';
 import ImageSection from '@/components/sections/ImageSection';
-import IconSection from '@/components/sections/IconSection';
+import IconSection from '@/components/sections/IconButtonSection';
 import Footer from '@/components/sections/Footer';
 
 export default function Home() {

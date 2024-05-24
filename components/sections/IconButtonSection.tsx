@@ -7,7 +7,7 @@ const IconSection: React.FC = () => {
         <div className="section-basic-elements__icons">
         <div className="row">
             <div className="col-12 u-margin-bottom-3">
-                <Typography tag="p" className="h3 u-margin-bottom-2">Ícones</Typography>
+                <Typography tag="p" className="h3 u-margin-bottom-3">Botões com Ícones</Typography>
                 <Typography tag="p" className="paragraph">Nosso projeto apresenta uma extensa coleção de ícones potencializada pelo FontAwesome. Com o FontAwesome, temos acesso a uma vasta biblioteca de ícones meticulosamente elaborados, abrangendo diversas categorias, desde ícones de interface do usuário até ícones de redes sociais, dispositivos, setas e muito mais.</Typography>
             </div>
             <div className="col-12 u-margin-bottom-3  u-space-between-child-elements-1">

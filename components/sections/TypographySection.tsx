@@ -6,7 +6,7 @@ const TypographySection: React.FC = () => {
         <div className="section-basic-elements__typographies">
             <div className="row">
                 <div className="col-12">
-                    <Typography tag="h3" className="h3 u-text-align-left">
+                    <Typography tag="h3" className="h3 u-text-align-left u-margin-bottom-3">
                         Tipografia
                     </Typography>
                 </div>
